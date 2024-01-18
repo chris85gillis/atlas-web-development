@@ -20,4 +20,4 @@ Atlas Fountations / T1 & T2
 
 | Directories                              | Description                                                       |
 | ---------------------------------------- | ----------------------------------------------------------------- |
-| html-advanced                            | How to use HTML tags to structure a web page. No CSS, no styling  |
+| html_advanced                            | How to use HTML tags to structure a web page. No CSS, no styling  |
