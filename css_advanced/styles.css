@@ -1,13 +1,15 @@
 /* Smile School Page */
 body {
-  width: 1440px;
-  height: 1093px;
-  margin: 0px;
+  width: 100%;
+  margin: 0;
+  margin-top: -20px;
 }
 
 /* Header */
 header {
-  position: absolute;
+  position: fixed;
+  height: 1093;
+  width: 100%;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -26,6 +28,7 @@ header {
 #logo {
   width: 167.02px;
   height: 29.46px;
+  margin: -330px;
 }
 #menu {
   display: inline-flex;
@@ -35,20 +38,21 @@ header {
   align-items: normal;
 }
 #menu a {
-	color: #FFF;
-	font-family: "Source Sans Pro";
-	font-size: 12px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	text-decoration: none;
-  }
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
 
 /* Main */
 #main {
   z-index: 1;
   position: absolute;
   display: flex;
+  flex-direction: column;
   width: 1700px;
   height: 1140px;
   flex-shrink: 0;
@@ -112,7 +116,7 @@ header {
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  margin-left: 221.08px;;
+  margin-left: 221.08px;
 }
 #pros h2 {
   text-align: center;
@@ -165,4 +169,63 @@ header {
   font-style: italic;
   font-weight: lighter;
   line-height: 24px;
+}
+
+/* Quote Block */
+#testimony {
+  width: 100%;
+  height: 392px;
+  display: flex;
+  z-index: 1;
+  position:absolute;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: #C271FF;
+  margin-top: 1110px;
+}
+#testimonial-block {
+  width: 943px;
+  height: 160px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+#testimonial-block img {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+#test_quote {
+  width: 730px;
+  height: 158px;
+  flex-shrink: 0;
+  padding: 0;
+}
+#test-quote blockquote {
+  margin: 0;
+  width: 730px;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+.bold {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.6px;
+}
+.italic {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px;
 }
