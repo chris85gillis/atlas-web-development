@@ -12,7 +12,7 @@ header {
   width: 100%;
   z-index: 2;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   flex-shrink: 0;
   left: 175.67px;
@@ -130,12 +130,12 @@ header {
   font-weight: 900;
 }
 #pro_list {
-  display: flex;
+  display:flex;
   width: 100%;
   height: 237px;
   flex-shrink: 0;
-  justify-content: space-around;
-  margin-left: 2px;
+  justify-content: center;
+  gap: 100px;
 }
 .pro {
   width: 150px;
@@ -232,7 +232,7 @@ header {
 #tutorial-section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-around;
   flex-direction: row;
   height: 550px;
   width: 100%;
@@ -243,9 +243,8 @@ header {
   flex-shrink: 0;
   display:block;
   flex-direction:row;
-  justify-content: space-between;
+  justify-content:sapa;
   align-items: center;
-  justify-content: center;
   margin-top: 3000px;
 }
 #tutorials h1 {
@@ -269,9 +268,11 @@ header {
 }
 #group-tutorial {
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
+  gap: 40px;
   flex-direction: row;
   width: 100%;
+
 }
 .tutorial {
   width: 255px;
@@ -362,83 +363,192 @@ header {
 
 /* Membership */
 #membership {
-	width: 100%;
-	height: 502px;
-	background-color: #071629;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 1600px;
-  }
-  #membership h1 {
-	margin-top: 70px;
-	color: #FFF;
-	font-family: "Source Sans Pro";
-	font-size: 32px;
-	font-style: normal;
-	font-weight: 300;
-	line-height: normal;
-  }
-  #membership .purple {
-	color: #C271FF;
-	text-align: center;
-	font-family: "Source Sans Pro";
-	font-size: 32px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-  }
-  #membership div {
-	display: flex;
-  }
-  .smile {
-	width: 257px;
-	height: 153px;
-	flex-shrink: 0;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-  }
-  .smile img {
-	width: 43.666px;
-	height: 35.353px;
-	flex-shrink: 0;
-  }
-  .smile h2 {
-	color: #FFF;
-	text-align: center;
-	font-family: "Source Sans Pro";
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 26px; /* 144.444% */
-	width: 256px;
-  }
-  .smile p {
-	color: #FFF;
-	text-align: center;
-	font-family: "Source Sans Pro";
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 26px; /* 185.714% */
-	width: 212px;
-  }
-  #membership button {
-	width: 162px;
-	height: 44px;
-	flex-shrink: 0;
-	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
-	background-color: #C271FF;
-	border: #C271FF;
-	border-radius: 22px;
-	color: #FFF;
-	text-align: center;
-	font-family: "Source Sans Pro";
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: normal;
-	margin-bottom: 52px;
-  }
+  width: 100%;
+  height: 502px;
+  background-color: #071629;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1600px;
+}
+#membership h1 {
+  margin-top: 70px;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#membership .purple {
+  color: #C271FF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#membership div {
+  display: flex;
+}
+.smile {
+  width: 257px;
+  height: 153px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.smile img {
+  width: 43.666px;
+  height: 35.353px;
+  flex-shrink: 0;
+}
+.smile h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  width: 256px;
+}
+.smile p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 212px;
+}
+#membership button {
+  width: 162px;
+  height: 44px;
+  flex-shrink: 0;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+  background-color: #C271FF;
+  border: #C271FF;
+  border-radius: 22px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 52px;
+}
+
+/* FAQ */
+#FAQ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 850px;
+}
+#faq-cont {
+  width: 920px;
+  height: 100%;
+  flex-shrink: 0;
+}
+#FAQ h1 {
+  margin-top: 67px;
+  color: #071629;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.qa_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.qa {
+  display: flex;
+  justify-content: space-between;
+}
+.qa_block {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0px;
+}
+.qa_block h2 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.qa_block p {
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 350px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 249px;
+  flex-shrink: 0;
+  background-color: #071629;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#footer_logo {
+  display: inline-flex;
+  padding: 0.023px 0px 0.516px 0.592px;
+  justify-content: center;
+  align-items: center;
+  gap: 18.019px;
+}
+#social {
+  width: 250px;
+  flex-shrink: 0;
+  display: flex;
+}
+#socail a {
+  width: 25px;
+  height: 25px;
+}
+#footer_cont {
+  height: 50%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#footer_cont div {
+  display: flex;
+  justify-content: space-between;
+}
+#footer_cont p {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3517;
+  text-align: center;
+}
