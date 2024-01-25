@@ -28,24 +28,24 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 # Tasks
 
-### Task 0. README and Objectives
+## Task 0. README and Objectives
 
 - This project is following the HTML, advanced project - please make sure all tasks of this previous one are fully done.
 - For this project, you will focus on the CSS and the style of the page.
 - This designer file will be available on Figma - feel free to create an account to access the final result.
-
-### Task 1. Import the Style
+  
+## Task 1. Import the Style
 
 Before starting the implementation of the Style:
 
 - Create the file styles.css
 - Import styles.css in the head of your index.html
 
-### Task 2. Header and Banner
+## Task 2. Header and Banner
 
 Based on the Figma file, add the correct styling to the header and first section of the page.
 
-- PICTURE HERE
+![task2](https://github.com/chris85gillis/atlas-web-development/assets/126268722/95557acb-23ba-4c8b-bc41-11ee80a50207)
 
 Reminders:
 
@@ -53,36 +53,36 @@ Reminders:
 - Keep your CSS simple and clean - use as simple as you can CSS selectors.
 - Be accurate - the final result should be the same as the page at the end!
 
-### Task 3. Quotes
+## Task 3. Quotes
 
 Based on the Figma file, add the correct styling to the quote section.
 
-- PICTURE HERE
+![task3](https://github.com/chris85gillis/atlas-web-development/assets/126268722/346ce82a-0972-4828-96a8-f4b891f7142d)
 
-### Task 4. Videos List
+## Task 4. Videos List
 
 Based on the Figma file, add the correct styling to the videos list section.
 
-- PICTURE HERE
+![task4](https://github.com/chris85gillis/atlas-web-development/assets/126268722/78450e37-71f5-4498-a5e0-1b4927ecb860)
 
-### Task 5. Membership
+## Task 5. Membership
 
 Based on the Figma file, add the correct styling to the membership section.
 
-- PICTURE HERE
+![task5](https://github.com/chris85gillis/atlas-web-development/assets/126268722/08ba47bd-d55d-4eee-b3d4-43d43f84495f)
 
-### Task 6. FAQ
+## Task 6. FAQ
 
 Based on the Figma file, add the correct styling to the FAQ section.
 
-- PICTURE HERE
+![task6](https://github.com/chris85gillis/atlas-web-development/assets/126268722/890e5d56-c10e-4a10-acf3-9d46addaa9e3)
 
-### Task 7. Footer
+## Task 7. Footer
 
 Based on the Figma file, add the correct styling to the footer.
 
-- PICTURE HERE
+![task7](https://github.com/chris85gillis/atlas-web-development/assets/126268722/b70a3c39-6baa-4a06-a8f0-a2da54ca1a9c)
 
 # Final Example
 
-- PICTURE HERE
+![final](https://github.com/chris85gillis/atlas-web-development/assets/126268722/31f6f28b-dd37-4bed-a1db-7b2878da3d53)
