@@ -228,7 +228,7 @@ header {
   line-height: 33.6px;
 }
 
-/* Tutorials */
+/* Videos Block */
 #tutorial-section {
   display: flex;
   align-items: center;
@@ -452,7 +452,7 @@ header {
   justify-content: center;
   height: 850px;
 }
-#faq-cont {
+#FAQ-spacer {
   width: 920px;
   height: 100%;
   flex-shrink: 0;
@@ -467,18 +467,18 @@ header {
   font-weight: 300;
   line-height: normal;
 }
-.qa_container {
+.FAQ-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 50px;
 }
-.qa {
+.FAQ-column {
   display: flex;
   justify-content: space-between;
 }
-.qa_block {
+.FAQ-block {
   display: flex;
   width: 350px;
   flex-direction: column;
@@ -486,7 +486,7 @@ header {
   align-items: flex-start;
   gap: 0px;
 }
-.qa_block h2 {
+.FAQ-block h2 {
   color: #071629;
   font-family: "Source Sans Pro";
   font-size: 16px;
@@ -494,7 +494,7 @@ header {
   font-weight: 700;
   line-height: normal;
 }
-.qa_block p {
+.FAQ-block p {
   color: rgba(7, 22, 41, 0.50);
   font-family: "Source Sans Pro";
   font-size: 14px;
@@ -515,7 +515,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-#footer_logo {
+#footer-logo {
   display: inline-flex;
   padding: 0.023px 0px 0.516px 0.592px;
   justify-content: center;
@@ -531,7 +531,7 @@ footer {
   width: 25px;
   height: 25px;
 }
-#footer_cont {
+#footer-container {
   height: 50%;
   width: 75%;
   display: flex;
@@ -539,11 +539,11 @@ footer {
   justify-content: space-between;
   gap: 70px;
 }
-#footer_cont div {
+#footer-container div {
   display: flex;
   justify-content: space-between;
 }
-#footer_cont p {
+#footer-container p {
   color: #FFF;
   font-family: "Source Sans Pro";
   font-size: 12px;
