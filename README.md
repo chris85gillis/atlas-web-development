@@ -11,6 +11,7 @@ Atlas Fountations / T1 & T2
 ## Built With
 
 - HTML
+- CSS
 
 ## Authors
 
@@ -21,3 +22,4 @@ Atlas Fountations / T1 & T2
 | Directories                              | Description                                                       |
 | ---------------------------------------- | ----------------------------------------------------------------- |
 | html_advanced                            | How to use HTML tags to structure a web page. No CSS, no styling  |
+| css_advanced                             | How to use CSS to bring HTML to life and styled to look good      |
