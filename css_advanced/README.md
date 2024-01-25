@@ -83,6 +83,6 @@ Based on the Figma file, add the correct styling to the footer.
 
 ![task7](https://github.com/chris85gillis/atlas-web-development/assets/126268722/b70a3c39-6baa-4a06-a8f0-a2da54ca1a9c)
 
-# Final Example
+# Full Example
 
 ![final](https://github.com/chris85gillis/atlas-web-development/assets/126268722/31f6f28b-dd37-4bed-a1db-7b2878da3d53)
